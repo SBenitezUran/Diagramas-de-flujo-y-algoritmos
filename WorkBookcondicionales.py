@@ -5,9 +5,29 @@ if num > 0:
 else:
   print("El número es negativo.")
 
-# mayor o menor de edad.
+# Actividad 1:
+# Mayor o menor de edad.
 num = float(input("introduzca su edad:"))
 if num >= 18:
-    print("Es mayor de edad.")
+  print("Es mayor de edad.")
 else:
-    print("Es menor de edad.")
+  print("Es menor de edad.")
+  
+# Actividad 2:
+# Número entero.
+while True:
+    try:
+        numero = int(input("por favor ingrese un número entero: "))
+        break
+    except ValueError:
+        print("Lo siento, no ingresaste un número entero. Intente nuevamente.")
+
+print("el número que ingresó es:", numero)
+
+# Número par
+num = float(input("ingrese un número:"))
+if num % 2 == 0:
+  print("El número es par")
+else:
+  ("No es un número par")
+  
