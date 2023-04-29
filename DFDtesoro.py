@@ -24,7 +24,7 @@ if direccion == "abajo":
         cual_elijo = input("Escriba 'azul' o 'rojo' o 'negro':")
         if cual_elijo == "azul":
             print("te disparan, GAME OVER")
-        elif cual_elijo == "negra":
+        elif cual_elijo == "negro":
              print("devorado por las culebras, GAME OVER")
         elif cual_elijo == "rojo":
             print("te rescatan, GANASTE")
